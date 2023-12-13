@@ -1,0 +1,7 @@
+#BMI=weight in kgs/height in meter squared
+weight=int(input("enter your weight in kgs:"))
+height= int(input("enter your height in meters:"))
+bmi=weight/(height**2)
+print("your BMI is:",bmi)
+
+
